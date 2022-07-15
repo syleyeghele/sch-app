@@ -1,0 +1,244 @@
+.page-title-style{
+    margin-top: 18px;
+    font-size: 25px;
+    padding-left: -5%;
+    margin-left: -1.5%;
+    color: #827d7d;
+}
+
+.middle-o-card{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.all-o-card{
+    padding: 30px;
+    border-style: solid;
+    border-width: 0.5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.icon-over-right{
+    margin-left: 5px;
+    color: #eea754;
+}
+
+.icon-over{
+    font-size: 40px;
+}
+
+.label-over-icon{
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.over-sepe{
+    font-size: 60px;
+    color: bisque;
+    margin-top: -1.5rem;
+    margin-left: -1.3rem;;
+}
+
+.over-value{
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: -1rem;
+}
+
+.padding-r-l-0{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.calendar-style{
+    margin-top: 2.5%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+    border: 0.5px solid #e8e8e0!important;
+    margin-left: -3%;
+    width: 375px!important;
+}
+
+.react-calendar__tile--now {
+    background: #eda753!important;
+}
+
+.react-calendar__tile--active {
+    background: #546ca9!important;
+    color: white;
+}
+
+abbr[title] {
+    text-decoration: nonoe!important;
+    text-decoration: none!important;
+    cursor: help;
+    border-bottom: 0;
+    text-decoration-skip-ink: none;
+}
+
+.calendar-card{
+    margin-top: 7.5%;
+}
+
+.notice-card{
+    margin-top: 5.2%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+    border: 0.5px solid #e8e8e0!important;
+    height: 50vh;
+    margin-right: 2.5%;
+}
+
+.notice-header{
+    text-align: center;
+    padding: 2%;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: 700;
+    background-color: #eda753;
+    color: white;
+}
+
+.margin-all{
+    margin-left: 1.5%!important;
+}
+
+.calendar-row-height{
+    margin-top: 1%;
+}
+
+.create-userid-btn{
+    width: 100%;
+    margin-left: -3%;
+    margin-top: 2rem;
+    padding: 3%;
+    font-size: 12px;
+    border-radius: 0.5%;
+    background-color: #546ca9!important;
+    color: white;
+    font-weight: 700;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+    border: 0.5px solid #e8e8e0!important;
+}
+
+.create-userid-btn:focus{
+    width: 100%;
+    margin-left: -3%;
+    margin-top: 2rem;
+    padding: 3%;
+    font-size: 12px;
+    border-radius: 0.5%;
+    background-color: #eda753;
+    color: white;
+    font-weight: 700;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+    border: 0.5px solid #e8e8e0!important;
+    outline:none;
+}
+
+.modal-btn-save{
+    padding: 2%;
+    font-size: 12px;
+    width: 100%;
+    border-radius: 0.3rem;
+    background-color: #546ca9;
+    color: white;
+    font-weight: 700;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px !important;
+    border: 0.5px solid #e8e8e0!important;
+}
+
+.modal-btn-hide{
+    padding: 2%;
+    font-size: 25px;
+    background-color: white;
+    color: #eda753;
+    border: none;
+}
+
+.modal-form-placehold{
+    font-size: 11px!important;
+    padding: 18px!important;
+    color: #6c757d;
+}
+
+.select-style-modal{
+    padding: 12px!important;
+}
+
+.label-title-modal{
+    font-size: 10px;
+}
+
+.notice-page-notice-board{
+    margin-left: -1.5%;
+    margin-top: 0;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px !important;
+    border: 0.5px solid #e8e8e0!important;
+    margin-right: 2.5%;
+}
+
+.overview-notice{
+    margin-top: 5%;
+    /* height: 50vh; */
+}
+
+.notice-line-height{
+    line-height: 2.5rem;
+}
+
+.publish-btn{
+    font-size: 15px!important;
+    padding: 12px!important;
+    background-color: #546ca9!important;
+    border: none!important;
+    width: 25%;
+    color: white!important;
+    margin-bottom: 1.5%;
+}
+
+.notice-btn-centre{
+    text-align: center;
+}
+
+.notice-text-area{
+    font-size: 14px;
+    line-height: 2;
+    font-family: monospace;
+    margin-left: -1.5%;
+    margin-top: 0;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px !important;
+    border: 0.5px solid #e8e8e0!important;
+    height: 50vh;
+    margin-right: 2.5%;
+}
+
+.notice-text{
+    font-size: 14px;
+    font-family: monospace;
+}
+
+.date-pub{
+    text-align: right;
+}
+
+.notice-content{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.notice-title{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.notice-title-area {
+    font-size: 14px;
+    font-family: monospace;
+    margin-left: -1.5%;
+    margin-top: 0;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px !important;
+    border: 0.5px solid #e8e8e0!important;
+    margin-right: 2.5%;
+    margin-bottom: 1.5%;
+}

@@ -1,0 +1,86 @@
+.sign-up-text {
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.con-width{
+    max-width: 500px;
+    margin-top: 5%;
+}
+
+.label-title {
+    font-size: 12px;
+}
+
+.placeholder-title{
+    font-size: 10px!important;
+    padding: 20px!important;
+}
+.placeholder-title:focus{
+    border-color: #ced4da;
+    box-shadow: none!important;
+}
+.placeholder-title:focus-visible{
+    outline: none;
+}
+
+.signup-btn {
+    font-size: 12px;
+    padding: 12px
+}
+
+.box-margin-left{
+    margin-left: 20px;
+}
+
+.text-right{
+    text-align: right!important;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.colour-orange{
+    color: rgb(233, 169, 49);
+    text-decoration: none;
+}
+
+.colour-orange:hover{
+    color: rgb(243, 161, 9);
+    text-decoration: none;
+}
+
+.select-style{
+    width: -webkit-fill-available;
+    font-size: 10px;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-weight: 400;
+}
+
+.select-style:focus-visible{
+    width: -webkit-fill-available;
+    font-size: 10px;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-weight: 400;
+    outline:none
+}
+
+.aa-notification {
+    font-size: 13px!important;
+}
+
+.signup-card{
+    padding: 5%;
+    border-style: solid!important;
+    border-width: 0.5px!important;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    padding-left: 7%!important;
+    padding-right: 7%!important;
+}
