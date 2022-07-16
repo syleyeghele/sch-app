@@ -38,7 +38,7 @@ class Notice extends Component {
         let notice = this.state.notice
         let noticeTitle = this.state.noticeTitle
         let noticeEmail = localStorage.userEmail
-        axios.post('http://127.0.0.1:4000/notice', {
+        axios.post('https://estyvida-server.herokuapp.com/notice', {
             notice: notice,
             noticeEmail: noticeEmail,
             noticeTitle: noticeTitle
@@ -60,7 +60,7 @@ class Notice extends Component {
     }
 
     componentDidMount(){
-        axios.get('http://127.0.0.1:4000/get_notice', {
+        axios.get('https://estyvida-server.herokuapp.com/get_notice', {
 
         }).then((response) => {
            let notice_txtData = response.data.data

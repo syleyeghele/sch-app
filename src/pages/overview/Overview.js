@@ -117,7 +117,7 @@ class Overview extends Component {
             gender = this.state.gender
 
 
-            axios.post('http://127.0.0.1:4000/user/add', {
+            axios.post('https://estyvida-server.herokuapp.com/user/add', {
                 fname: fname,
                 sname: sname,
                 user_type: user_type,
@@ -161,7 +161,7 @@ class Overview extends Component {
 
       componentDidMount(){
 
-            axios.get('http://127.0.0.1:4000/all_students', {
+            axios.get('https://estyvida-server.herokuapp.com/all_students', {
                 
             }).then( (response) => {
                 console.log(response.data.data.length)
@@ -171,7 +171,7 @@ class Overview extends Component {
                 })
             });
 
-            axios.get('http://127.0.0.1:4000/all_teachers', {
+            axios.get('https://estyvida-server.herokuapp.com/all_teachers', {
                 
             }).then( (response) => {
                 console.log(response.data.data.length)
@@ -181,7 +181,7 @@ class Overview extends Component {
                 })
             });
 
-            axios.get('http://127.0.0.1:4000/get_notice', {
+            axios.get('https://estyvida-server.herokuapp.com/get_notice', {
 
             }).then((response) => {
             let data = response.data.data

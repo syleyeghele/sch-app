@@ -17,7 +17,7 @@ class Teachers extends Component {
     }
 
     componentDidMount(){
-        axios.get('http://127.0.0.1:4000/get_all_students', {
+        axios.get('https://estyvida-server.herokuapp.com/get_all_students', {
 
         }).then( (response) => {
             let studentData = response.data.data

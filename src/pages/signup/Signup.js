@@ -34,7 +34,7 @@ class Signup extends Component {
         let email = this.state.email,
             password = this.state.password
 
-            axios.post('http://127.0.0.1:4000/users/signup', {
+            axios.post('https://estyvida-server.herokuapp.com/users/signup', {
                 email: email,
                 password: password
             }).then( (response) => {
